@@ -1,0 +1,217 @@
+.background-member-page{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 150vh;
+}
+
+.nav-bar {
+    background-color: rgb(18, 42, 87);
+    width: 100vw;
+    height: 15vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: column;/*aligne les éléments en colonne */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.cityty-style-member-page {
+    font-style: oblique;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 10vh;
+}
+
+.user-nav-bar{
+    margin-bottom: 2vh;
+    font-style: oblique;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.nav-bar2 {
+    background-color: rgb(18, 42, 87);
+    width: 100vw;
+    height: 10vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en colonne */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.button-box-nav-bar{
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.button-nav-bar{
+    height: 6vh;
+}
+
+.map-box {
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: column;/*aligne les éléments en colonne */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+  }
+
+.search_bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en colonne */    
+}
+
+.departement-bar{
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en colonne */    
+}
+
+.bouton-recherche-city{
+    margin-left: 10px;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en colonne */    
+}
+
+.textfield_bar{
+    background: white;
+    width: 100vw;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en colonne */    
+}
+
+.boite-city-autour{
+    margin-top:20px;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;/*aligne les éléments en ligne */
+}
+
+.button-city-autour{
+    margin-right:1vw;
+}
+
+.background_white{
+    background: white;
+}
+
+.profilPageBox{
+    margin-top:5vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.textProfil1{
+    margin-bottom:3vh;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.boxChangePassword{
+    margin-bottom:3vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.BoxValiderUsername{
+    margin-left:2vw;
+}
+
+.addCityBox{
+    margin-top:3vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.textaddCity1{
+    text-align: center;
+    margin-bottom:1vh;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.textaddCity2{
+    margin-bottom:1vh;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.textaddCity3{
+    margin-bottom:1vh;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+    white-space: pre-line;
+    word-break:break-word;
+}
+
+.conversation-button{
+    width: 50vw;
+    padding: 10px;
+    background-color:#e1e1e1;
+    text-align: left;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius:10px ;
+}
+
+.conversation-button:hover {
+    background-color: rgb(192, 192, 214);
+}
+
+.BoxHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.roomButtonBox{
+    height: 70vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre verticalement */
+    overflow-y:auto;
+}
+
+.InsideButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+}
+
+.NameChannelBold{
+    text-align: left;
+    margin-bottom:1vh;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.DateChannelBold{
+    text-align: right;
+    margin-bottom:1vh;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.NameChannel{
+    text-align: left;
+    margin-bottom:1vh;
+    font-size: 13px;
+}
+
+.DateChannel{
+    text-align: right;
+    margin-bottom:1vh;
+    font-size: 13px;
+}

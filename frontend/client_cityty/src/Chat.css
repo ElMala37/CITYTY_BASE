@@ -1,0 +1,79 @@
+.room{
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    flex-direction: column;
+}
+
+.convBox{
+    margin-top:3vh;
+    height: 60vh;
+    width: 65vw;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: column-reverse;
+    overflow-y:auto;
+}
+
+.bulleUser{
+    height: auto;
+    width: 35vw;
+    background-color: rgb(13, 39, 56); /* Couleur de fond */
+    border-radius: 15px; /* Rayon de bordure pour arrondir les coins */
+    margin-left:auto;
+    color:white;
+    margin-top:10px;
+    display: flex;
+}
+
+.bulle{
+    height: auto;
+    width: 35vw;
+    background-color: #a4d0ee; /* Couleur de fond */
+    border-radius: 15px; /* Rayon de bordure pour arrondir les coins */
+    /*margin-top:10px;*/
+    display: flex;
+}
+
+.textBulle{
+    margin-left:1vw;
+    text-align: left;
+    padding:4px;
+    white-space: pre-line;
+    word-break:break-word;
+}
+
+.buttonBoxChat{
+    height: 10vh;
+    width: 80vw;
+    margin-top:3vh;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.buttonSend{
+    margin-left:1vw;
+}
+
+.titleRoom{
+    height: 10vh;
+    width: 80vw;
+    display: flex; /* creer une flexbox et permet les lignes suivantes */
+    flex-direction: row;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.titleText{
+    font-weight: bold;
+    font-size: auto;
+}
+
+.infoUser{
+    margin-top:10px;
+    margin-left:1vw;
+    display:flex;
+    text-align:left;
+}
+
